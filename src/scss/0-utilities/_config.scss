@@ -1,0 +1,31 @@
+// =======================================
+// =            Global Config            =
+// =======================================
+
+// Fonts
+@import url('http://fonts.googleapis.com/css?family=Raleway:100,300,400,700');
+
+
+$font: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+
+// Colors
+$white: white;
+$black: #4a4a4a;
+$gris: #797e83;
+$orange: #ec7024;
+
+$main-color: $orange;
+
+$color-accent: invert($main-color);
+$color-shadow: rgba($black, 0.2);
+
+// Transitions
+$trns-duration: 0.225s ease;
+
+// Breakpoints
+@import "breakpoints";
+
+$columns: 12;
+$column-gutter: 20px;
