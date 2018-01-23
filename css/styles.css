@@ -1,0 +1,447 @@
+/**
+* rem to px
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video
+{
+    font: inherit;
+    font-size: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section
+{
+    display: block;
+}
+
+body
+{
+    line-height: 1;
+}
+
+ol,
+ul
+{
+    list-style: none;
+}
+
+blockquote,
+q
+{
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+    content: '';
+    content: none;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+*,
+*::before,
+*::before
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html
+{
+    height: 100%;
+    min-height: 100%;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+
+    height: 100%;
+    min-height: 100%;
+
+    color: #2e2d34;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.is-hidden
+{
+    position: absolute;
+
+    visibility: hidden;
+
+    width: 0;
+    height: 0;
+}
+
+.icon
+{
+    display: block;
+
+    width: 100%;
+    margin: 0 auto;
+
+    fill: currentColor;
+    stroke: currentColor;
+}
+
+.app
+{
+    height: 100%;
+    min-height: 100%;
+    padding: .9375rem;
+
+    background-color: #f4f4f4;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #2e2d34;
+}
+
+.row:after
+{
+    display: block;
+    clear: both;
+
+    content: '';
+}
+
+.row--flex
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    max-width: 100%;
+
+    text-align: center;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.vertical
+{
+        flex-direction: column !important;
+
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+}
+
+.horizontal
+{
+        flex-direction: row !important;
+
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+}
+
+.mainHeader
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.mainHeader--user
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.mainHeader--user__avatar
+{
+    margin-right: 1.125rem;
+}
+
+.mainHeader--user__avatar img
+{
+    width: 2.375rem;
+    height: 2.375rem;
+
+    border-radius: 100px;
+}
+
+.mainHeader--user h6
+{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.mainHeader .power
+{
+    width: 2rem;
+    height: 2.1875rem;
+
+    fill: #bfc5d1;
+}
+
+.logo
+{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+}
+
+.logo img
+{
+    display: block;
+
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+.mainNav
+{
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+    left: 0;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    margin: 0 auto;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+}
+
+.mainNav a
+{
+    font-size: 1.25rem;
+
+    margin: 1.25rem;
+
+    text-align: center;
+}
+
+.mainNav span
+{
+    display: block;
+
+    margin-bottom: .25rem;
+}
+
+@media (min-width: 48rem)
+{
+    .mainHeader--user__avatar
+    {
+        margin-right: 1.375rem;
+    }
+
+    .mainHeader--user__avatar img
+    {
+        width: 2.625rem;
+        height: 2.625rem;
+    }
+
+    .mainHeader--user h6
+    {
+        font-size: 1.125rem;
+    }
+
+    .mainHeader .power
+    {
+        width: 2.375rem;
+        height: 2.625rem;
+    }
+
+    .logo img
+    {
+        max-width: 26.25rem;
+    }
+}
+
+@media (min-width: 62rem)
+{
+    .app
+    {
+        padding: 2.5rem;
+    }
+
+    .logo
+    {
+        top: 30%;
+    }
+
+    .logo img
+    {
+        max-width: 37.5rem;
+    }
+
+    .mainNav
+    {
+        bottom: 10%;
+
+            flex-direction: row;
+
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+    }
+}
+
+@media (min-width: 120rem)
+{
+    .logo img
+    {
+        max-width: 50rem;
+    }
+
+    .mainNav
+    {
+        bottom: 20%;
+    }
+
+    .mainNav a
+    {
+        font-size: 1.5rem;
+    }
+}
+
+/*# sourceMappingURL=styles.css.map */
