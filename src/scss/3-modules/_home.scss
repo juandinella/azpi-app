@@ -56,10 +56,17 @@
     @include breakpoint(xx) {
       font-size: rem(24px);
     }
+    
+    &:hover {
+      span {
+        font-size: rem(100px);
+      }
+    }
   }
   
   span {
     display: block;
     margin-bottom: rem(4px);
+    transition: all 0.225s ease;
   }
 }
