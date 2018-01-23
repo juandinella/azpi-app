@@ -1,7 +1,7 @@
 {
-  "name": "penny",
+  "name": "azpi",
   "version": "1.0.0",
-  "description": "Frontend Boilerplate",
+  "description": "Azpi App",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",

@@ -3,26 +3,15 @@
 // =======================================
 
 // Fonts
-@import url('http://fonts.googleapis.com/css?family=Raleway:100,300,400,700');
 
-
-$font: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+$font: 'Open Sans', sans-serif;
 
 
 // Colors
-$white: white;
-$black: #4a4a4a;
-$gris: #797e83;
-$orange: #ec7024;
+$white: #f4f4f4;
+$black: #2e2d34;
+$gray: #bfc5d1;
 
-$main-color: $orange;
-
-$color-accent: invert($main-color);
-$color-shadow: rgba($black, 0.2);
-
-// Transitions
-$trns-duration: 0.225s ease;
 
 // Breakpoints
 @import "breakpoints";

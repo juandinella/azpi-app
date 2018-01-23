@@ -4,17 +4,17 @@
 
 // Sets the base font-size to the base to use nicely on REM units
 html{
-  font-size: 62.5%;
+  min-height: 100%;
+  height: 100%;
 }
 
 body{
-  @include font-size(1.6);
+  min-height: 100%;
+  height: 100%;
+  font-family: $font;
+  color: $black;
 }
 
-::selection{
-  background: lighten($main-color, 12%);
-  color: $white;
-  }
 
 img{
   max-width: 100%;
@@ -33,4 +33,20 @@ img{
   fill: currentColor;
   stroke: currentColor;
   margin: 0 auto;
+}
+
+.app {
+  height: 100%;
+  min-height: 100%;
+  padding: rem(15px);
+  background-color: $white;
+  
+  @include breakpoint(md) {
+    padding: rem(40px);
+  }
+}
+
+a{
+  text-decoration: none;
+  color: $black;
 }

@@ -1,11 +1,4 @@
-![PennyFramework](penny.png)
-
-#### Tiny but powerful
-
-Many thanks to [**@mpalau**](http:///twitter.com/mpalau) & [**@necsoft**](http:///twitter.com/necsoft)
-
-
-Frontend Boilerplate
+# Azpi App
 
 ## Prerequisites
 - NodeJS (^4.5 Recommended) - [How to install](https://nodejs.org/es/download/package-manager/)
@@ -51,17 +44,4 @@ gulp build
 
 - **BrowserSync**: Keep multiple browsers & devices in sync when building websites.
 
-- **SVG Power**: Drop all yours svg icons into `src/svg` and this will generate a sprite with all the icons. The way to use it is:
-
-```Pug
-svg.icon.icon-name
-  use(xlink:href='#icon-name')
-```
-
-```Sass
-.icon-name{
-  width: width in px;
-  height: height in px;
-  color: fill color;
-}
-```
+- **SVG Power**: Drop all yours svg icons into `src/svg` and this will generate a sprite with all the icons.
