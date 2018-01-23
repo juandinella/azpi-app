@@ -360,11 +360,19 @@ a
     text-align: center;
 }
 
+.mainNav a:hover span
+{
+    font-size: 6.25rem;
+}
+
 .mainNav span
 {
     display: block;
 
     margin-bottom: .25rem;
+
+    -webkit-transition: all .225s ease;
+            transition: all .225s ease;
 }
 
 @media (min-width: 48rem)
